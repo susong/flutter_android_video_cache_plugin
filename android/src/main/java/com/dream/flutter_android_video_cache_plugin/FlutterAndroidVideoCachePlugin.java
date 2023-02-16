@@ -47,6 +47,7 @@ public class FlutterAndroidVideoCachePlugin implements FlutterPlugin, MethodCall
                 }
             }
             FlutterAndroidVideoCacheWrapper.getInstance().config(cacheDirectory, maxCacheSize);
+            result.success(null);
         } else if (call.method.equals("getProxyUrl")) {
             String url = call.argument("url");
             String proxyUrl = FlutterAndroidVideoCacheWrapper.getInstance().getProxyUrl(url);
