@@ -3,7 +3,8 @@ package com.dream.flutter_android_video_cache_plugin;
 import android.content.Context;
 import android.os.Environment;
 
-import com.danikula.videocache.HttpProxyCacheServer;
+
+import com.dream.video.cache.HttpProxyCacheServer;
 
 import java.io.File;
 import java.lang.ref.WeakReference;
